@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px;
+}
+
+.top-right {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    padding: 10px;
+
+}
+
+.top-right li{
+    margin: 5px;
+    font-size: x-small;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.heading{
+    padding: 0 5px;
+    margin-left: 10px;
+    height:65px ;
+}
+
+.heading h2{
+    font-size: x-large;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.heading p{
+    font-size: 0.65rem;
+    margin-top: 10px;
+}
+
+.black_2{
+    position: absolute;
+    background: black;
+    top:10%;
+    left: 0px;
+    width: 35px;
+    height: 35px;
+}
+
+.cog{
+    position: absolute;
+    top: 30%;
+    left: 10px;
+    color: white;
+}
+
+.cards{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box-1{
+    margin: auto;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    border: 2px solid rgb(250, 247, 247);
+    background: rgb(238, 235, 235);
+    
+}
+.navbar{
+    position: relative;
+    height: 100px;
+    margin: 0px; 
+    width: 100%;
+}
+
+.navbar h2{
+    font-family: cursive;
+    margin-left: 10px;
+    position: absolute;
+}
+
+
+.img_inf p{
+    color: rgb(97, 96, 96);
+}
+
+.btn{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+input[type="submit"]{
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+    outline: none;
+    background: #eee;
+}
+
+.foot{
+    position: relative;
+    height: 200px;
+    background: #eee;
+}
+
+footer{
+    padding-bottom: 100px;
+    padding-left: 100px;
+    display:flex;
+    margin: 20px;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+footer a{
+    padding: 50px 10px 0px 10px;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 30px;
+    font-family: cursive;
+    font-size: 1em;
+
+}  
+
+.foot_pad{
+    font-family: cursive;
+    padding: 10px ;
+    position: absolute;
+    bottom: 35%;
+}
